@@ -1,0 +1,598 @@
+/*
+Theme Name: Mynewtheme
+Theme URI: http://users.metropolia.fi
+Author: Nimi
+Author URI: https://metropolia.fi/
+Description: Teeman teon opiskelua
+Version: 0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: blue
+Text Domain: Mynewtheme
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/*
+.nav {
+    padding-left:0;
+    margin-bottom:0;
+    list-style-type:none;
+  }
+  
+.menu > li { 
+    position:relative;
+    display:inline;
+  }
+  
+.menu > li > a {
+    font-size: 14px;
+    font-weight: 500;
+    color: #ffffff;
+    padding:10px 15px;
+    line-height: 20px;
+  }
+
+.top-nav-collapse .menu > li > a {
+    color: #575757;
+}
+    
+  .menu > li > a:focus, .menu > li >a:hover {
+    text-decoration:none;
+    background-color:#eee;
+  }
+  
+  .menu > li.disabled >a {
+    color:#777;
+  }
+  
+  .menu > li.disabled > a:focus, .menu > li.disabled > a:hover {
+    color:#777;
+    text-decoration:none;
+    cursor:not-allowed;
+    background-color:transparent;
+  }
+  
+  .menu .open > a, .menu .open > a:focus, .menu .open > a:hover {
+    background-color:#eee;
+    border-color:#337ab7;
+  }
+ */
+
+ html {
+	scroll-padding-top: 100px; /* height of sticky header */
+  }
+
+
+ /*--------------------*/
+/* FRONT PAGE */
+/*--------------------*/
+
+
+ .thumb-image {
+    max-width: 100%;
+ }
+
+ .mu-service-content {
+	display: inline;
+	float: left;
+	width: 100%;
+}
+
+.mu-single-service {
+	display: inline;
+	float: left;
+	width: 100%;
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+
+.mu-single-service-icon {
+	background-color: #0091ea;
+	border-radius: 50%;
+	color: #fff;
+	display: inline;
+	font-size: 18px;
+	float: left;
+	height: 48px;
+	width: 48px;
+	text-align: center;
+	line-height: 48px;
+	margin-right: 20px;
+}
+
+.mu-single-service-content {
+	display: inline;
+	float: left;
+	width: 80%;
+	text-align: left;
+}
+
+.mu-single-service-content h3 {
+	color: #323232;
+	text-transform: uppercase;
+	font-size: 18px;
+	margin-top: 0;
+}
+
+.mu-single-service-content p {
+	font-size: 14px;
+}
+
+.service-info-image {
+	width: auto !important;
+    height: 400px !important;
+	object-fit: cover !important;
+}
+
+.media-body {
+	background-color: #ffffff;
+	border: 1px solid #ffffff;
+}
+
+.section-title {
+	margin-bottom: 80px !important;
+}
+
+.tool-images {
+	margin-top: 120px;
+}
+
+.work-thumb2 {
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+
+.work-thumb3 {
+	padding: 0 10px;
+	padding-bottom: 20px;
+}
+
+.work-thumb4 {
+	padding: 0 10px;
+	padding-bottom: 20px;
+}
+
+.work-thumb5 {
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+
+.blog-info .section-btn:hover {
+	background: linear-gradient(to right, #0091ea, #00F260) !important;
+}
+
+/*--------------------*/
+/* SERVICE PAGE*/
+/*--------------------*/
+.services {
+	padding-bottom: 20px !important;
+}
+
+.services-menu {
+	margin-bottom: 15px;
+}
+
+.service-list {
+	margin-bottom: 50px;
+}
+
+.service-description h3 {
+	margin-bottom: 20px;
+}
+
+.service-image {
+	width: 100% !important;
+    height: 400px !important;
+	object-fit: cover !important;
+}
+
+.service-row {
+	margin-top: 50px;
+}
+
+.service-row:nth-child(2n) {
+	display: flex;
+  	flex-direction: row-reverse;
+}
+
+.service-row:nth-child(2n) .service-description {
+	padding-right: 25px;
+} 
+
+.service-row:nth-child(1) .service-description, .service-row:nth-child(3) .service-description {
+	padding-left: 25px;
+}
+
+.benefit-info {
+	background-color: #f0f0f0;
+	padding: 50px 0;
+}
+
+.read-more-btn {
+	background: #ce3232;
+    border-radius: 100px;
+    color: #ffffff;
+    font-weight: 500;
+	height: 55px;
+	border: 1px solid #ce3232;
+	float: left;
+	padding: 6px 12px;
+	width: 170px;
+	margin-top: 20px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.read-more-btn:hover, .read-more-btn:active, .read-more-btn:visited {
+	color: #ffffff;
+}
+
+/*--------------------*/
+/* PORTFOLIO PAGE*/
+/*--------------------*/
+
+ /*--- Portfolio image -*/
+
+ #portfolio-image {
+	width: 100% !important;
+    height: 250px !important;
+    object-fit: cover !important;
+ }
+
+
+/*--------------------*/
+/* PORTFOLIO */
+/*--------------------*/
+
+.mu-filter-item-title {
+	color: white;
+}
+
+.mu-title {
+	display: inline;
+	float: left;
+	text-align: center;
+	width: 100%;
+	margin-bottom: 35px;
+	padding: 0 15%;
+}
+
+.mu-portfolio-content{
+	display: inline;
+	float: left;
+	margin-top: 20px;
+	width: 100%;
+}
+
+.mu-portfolio-filter-area{
+	display: inline;
+	float: left;
+	width: 100%;
+}
+
+.filtr-item {
+	margin-bottom: 0px;
+	padding: 16px;
+	transform-style: unset !important;
+}
+
+.mu-imglink {
+	background-color: transparent;
+}
+
+.filtr-item h4 {
+	font-size: 16px;
+}
+
+.mu-filter-item-content {
+	background-color: #0091ea;
+	position: absolute;
+	left: 16px;
+	top: 16px;
+	right: 16px;
+	bottom: 16px;
+	color: #fff;
+	padding-top: 25%;
+	text-align: center;
+	-webkit-transform: scale(0);
+	        transform: scale(0);
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+	opacity: 0.9;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+}
+
+.filtr-item:hover .mu-filter-item-content {
+	-webkit-transform: scale(0.9);
+	        transform: scale(0.9);
+}
+
+/* Filter controls */
+
+.mu-simplefilter {
+	text-align: center;
+}
+
+.mu-simplefilter li {
+	color: #323232;
+	cursor: pointer;
+	display: inline-block;
+	margin: 0 6px;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+	font-size: 16px;
+	font-weight: 700;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.mu-simplefilter li a {
+	color: #323232;
+	font-weight: 700;
+}
+
+.mu-simplefilter li a:hover {
+	color: #0091ea;
+}
+
+.mu-simplefilter li span {
+	margin-left: 16px;
+}
+
+.mu-simplefilter li:hover,
+.mu-simplefilter li.active {
+    color: #0091ea;
+}
+
+/*--------------------*/
+/* COMPANY PAGE */
+/*--------------------*/
+
+.mu-about-right {
+	margin-left: 15px;
+	display: flex;
+	flex-direction: column;
+}
+
+.mu-about-right p {
+	text-align: left;
+}
+
+.mu-company-info-icon {
+	background-color: #0091ea;
+	border-radius: 50%;
+	color: #fff;
+	display: inline;
+	font-size: 18px;
+	float: left;
+	height: 48px;
+	width: 48px;
+	text-align: center;
+	line-height: 48px;
+	margin: 20px 20px 20px 0;
+}
+
+.choose-list {
+	
+}
+
+.choose-info {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+}
+
+/*--------------------*/
+/* CONTACT US */
+/*--------------------*/
+
+.company-contact-title {
+	margin-top: 30px;
+	color: #484848;
+	font-weight: 600;
+}
+
+.contact-info-area {
+  float: left;
+  text-align: left;
+  margin-left: 15%;
+  margin-top: 60px;
+}
+
+.form-input-control {
+	display: block;
+    width: 100%;
+	line-height: 1.42857143;
+}
+
+.custom-contact-form {
+	border: 1px solid #cccccc;
+	border-radius: 5px;
+}
+
+.send-msg-button {
+	background: #ce3232;
+    border-radius: 100px;
+    color: #ffffff;
+    font-weight: 500;
+	height: 55px;
+	border: 1px solid #ce3232;
+	float: left;
+	padding: 6px 12px;
+	width: 100%;
+	margin-top: 20px;
+}
+
+.contact-info-details {
+	display: flex;
+	flex-direction: row;
+}
+
+.contact-info-icon i {
+	margin-right: 10px;
+	color: #575757;
+}
+
+#mu-contact {
+	background-color: #fff;
+	display: inline;
+	float: left;
+	width: 100%;
+}
+
+.mu-contact-area {
+	display: inline;
+	float: left;
+	text-align: center;
+	padding: 60px 0;
+	width: 100%;
+}
+
+.mu-contact-content {
+	display: inline;
+	float: left;
+	width: 100%;
+	padding: 0 0;
+}
+
+.mu-contact-form-area {
+	width: 100%;
+	padding: 30px;
+}
+
+.mu-contact-form {
+	text-align: center;
+}
+
+.mu-contact-form .form-group {
+	position: relative;
+}
+
+.mu-contact-form .mu-contact-icon {
+	color: #575757;
+	font-size: 14px;
+	position: absolute;
+	left: 5px;
+	top: 15px;
+}
+
+.mu-contact-form .form-group input {
+	background: transparent;
+	border-radius: 0;
+	color: #333;
+	font-size: 14px;
+	border: 1px #cccccc;
+	border-style: none none solid none;
+	height: 45px;
+	padding: 0 25px;
+	margin-bottom: 24px;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.mu-contact-form .form-group textarea {
+	background: transparent;
+	border: 1px #cccccc;
+	border-style: none none solid none;
+	border-radius: 0;
+	color: #333;
+	font-size: 14px;
+	padding: 10px;
+	height: 100px;
+	padding: 13px 25px;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.mu-contact-form .form-control:focus {
+	background-color: #fff;
+	border-style: none none solid none;
+    outline: 0;
+    box-shadow: none;    
+} 
+
+.mu-contact-form .form-control::-webkit-input-placeholder {
+	color: #7e7e7e;
+	font-size: 14px;
+}
+
+.mu-contact-form .form-control:-moz-placeholder { /* Firefox 18- */
+	color: #7e7e7e;
+	font-size: 14px;
+}
+
+.mu-contact-form .form-control::-moz-placeholder {  /* Firefox 19+ */
+	color: #7e7e7e;
+	font-size: 14px;
+}
+
+.mu-contact-form .form-control:-ms-input-placeholder {  
+	color: #7e7e7e;
+	font-size: 14px;
+}
+
+.mu-contact-form .button-default::after,
+.mu-contact-form .button-default > span {
+	padding: 12px 40px;  
+}
+
+#form-messages {
+	margin-bottom: 10px;
+    background-color: #fff;
+}
+
+.success {
+	padding: 1em;
+	margin-bottom: 0.75rem;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	color: #468847;
+	background-color: #dff0d8;
+	border: 1px solid #d6e9c6;
+	-webkit-border-radius: 4px;
+	      border-radius: 4px;
+}
+
+.error {
+	padding: 1em;
+	margin-bottom: 0.75rem;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	color: #b94a48;
+	background-color: #f2dede;
+	border: 1px solid rgba(185, 74, 72, 0.3);
+	-webkit-border-radius: 4px;
+	      border-radius: 4px;
+}
+
+@media (max-width: 767px) {
+	.mu-title {
+		padding: 0;
+	}
+
+	.section-title h2 {
+		font-size: 18px;
+	}
+
+	#home {
+		min-height: 50vh !important;
+	}
+
+	#blog-header {
+		height: 50vh !important;
+	}
+
+	.service-row {
+		display: flex !important;
+		flex-direction: column !important;
+	}
+}
+
+@media (max-width: 1400px) {
+	section {
+		background-position: center !important;
+	}
+}
