@@ -1,2 +1,2 @@
-# myfirst-wptheme
-My first WordPress theme
+# My first WordPress theme
+
