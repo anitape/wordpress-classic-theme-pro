@@ -26,6 +26,9 @@ An integrated contact form enables visitors to easily reach out for inquiries or
 <b>Google Map</b><br>
 An embedded Google map makes it simple for clients to find the business location.
 
+<b>Responsive Design</b><br>
+The theme is fully responsive and optimized for desktop, tablet, and mobile devices, ensuring a seamless user experience across all screen sizes.
+
 
 ## Technology Used
 - **WordPress (Classic Theme Development)** – Theme structure, templates, hooks, filters  
